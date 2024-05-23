@@ -11,10 +11,10 @@
         const sabores = ['Fresa', 'Kiwi', 'Pistache']
         print(`El número de sabores es ${sabores.length}`,sabores)
         const contarSabores = (arr = sabores) => {
-            print(arr.length)
+            print(`El número de sabores es`,arr.length)
         }
         const mostrarSabores = (arr = sabores) => {
-            print(arr)
+            print(`Los sabores actuales son`,arr)
         }
         const agregarSabor = (sabor, arr = sabores) => {
             arr.push(sabor)
@@ -32,6 +32,7 @@
             agregarSabor('Chocolate',sabores)
             contarSabores(sabores)
         }
+        main()
     </script>
 </head>
 <body>
